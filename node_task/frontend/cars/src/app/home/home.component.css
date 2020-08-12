@@ -1,0 +1,23 @@
+.options {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.options div {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.heading {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.home-container {
+  padding: 20px 10px;
+}
+
+.quarter-select {
+  width: 50%;
+}

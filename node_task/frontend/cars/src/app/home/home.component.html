@@ -1,0 +1,12 @@
+<section class="home-container" >
+  <div>
+    <p>Select a Quarter from dropdown to Expand that Quarter Section</p>
+    <p>Select Quarter:</p>
+    <select class="quarter-select custom-select" [(ngModel)]="selectedQuarter">
+      <option *ngFor="let option of quarterOptions"  [value]="option">{{ option }}</option>
+    </select>
+  </div>
+</section>
+<section class="results-container">
+  <app-results [selectedQuarter]="selectedQuarter" [result]="carsResult" [quarterOptions]="quarterOptions"></app-results>
+</section>
